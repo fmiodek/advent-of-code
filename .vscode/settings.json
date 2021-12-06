@@ -1,0 +1,6 @@
+{
+  "python.autoComplete.extraPaths": [
+    "/Users/florianmiodek/.vscode/extensions/stefanwehr.write-your-python-program-0.14.2/python/src/"
+  ],
+  "python.linting.enabled": false
+}
