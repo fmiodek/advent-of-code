@@ -1,5 +1,8 @@
+import os
+import sys
+
 count1 = 0
-with open("/Users/florianmiodek/Desktop/Python_Projekte/Advent of Code/Day_1/input.txt", "r") as f:
+with open(os.path.join(sys.path[0], "input.txt"), "r") as f:
     lines = f.readlines()
     prev = float("inf")
     for line in lines:
@@ -11,7 +14,7 @@ print(count1)
 
 
 count2 = 0
-with open("/Users/florianmiodek/Desktop/Python_Projekte/Advent of Code/Day_1/input.txt", "r") as f:
+with open(os.path.join(sys.path[0], "input.txt"), "r") as f:
     lines = f.readlines()
     i = 0
     j = 3
